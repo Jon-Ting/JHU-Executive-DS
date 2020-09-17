@@ -1,0 +1,126 @@
+|City                                  | n_Properties|
+|:-------------------------------------|------------:|
+|Aberdeen, MD                          |          108|
+|Abingdon, MD                          |          125|
+|Annapolis, MD                         |          384|
+|Arnold, MD                            |           85|
+|Baldwin, MD                           |           17|
+|Baltimore, MD                         |         2312|
+|Barclay, MD                           |            2|
+|Bel Air, MD                           |          254|
+|Belcamp, MD                           |           31|
+|Brooklyn Park, MD                     |           45|
+|Burtonsville, MD                      |            1|
+|Carmody Hills-Pepper Mill Village, MD |            1|
+|Carney, MD                            |           77|
+|Catonsville, MD                       |          180|
+|Centreville, MD                       |           52|
+|Chester, MD                           |           33|
+|Chestertown, MD                       |           16|
+|Church Hill, MD                       |           24|
+|Churchton, MD                         |           14|
+|Churchville, MD                       |           12|
+|Clarksville, MD                       |           41|
+|Cockeysville, MD                      |           86|
+|Columbia, MD                          |          335|
+|Cooksville, MD                        |            2|
+|Crofton, MD                           |           94|
+|Crownsville, MD                       |           50|
+|Darlington, MD                        |           10|
+|Davidsonville, MD                     |           33|
+|Dayton, MD                            |           12|
+|Deale, MD                             |           15|
+|District Heights, MD                  |            1|
+|Dundalk, MD                           |          236|
+|Dunkirk, MD                           |            4|
+|Edgemere, MD                          |           37|
+|Edgewater, MD                         |           95|
+|Edgewood, MD                          |           76|
+|Elkridge, MD                          |           96|
+|Ellicott City, MD                     |          304|
+|Essex, MD                             |          129|
+|Fallston, MD                          |           55|
+|Finksburg, MD                         |           45|
+|Forest Hill, MD                       |           73|
+|Fort Howard, MD                       |            3|
+|Freeland, MD                          |           10|
+|Friendship, MD                        |            3|
+|Fulton, MD                            |           14|
+|Galesville, MD                        |            2|
+|Gambrills, MD                         |           59|
+|Glen Arm, MD                          |           16|
+|Glen Burnie, MD                       |          283|
+|Glenelg, MD                           |            3|
+|Glenwood, MD                          |           16|
+|Glyndon, MD                           |            3|
+|Grasonville, MD                       |           33|
+|Halethorpe, MD                        |          111|
+|Hampstead, MD                         |           77|
+|Hanover, MD                           |           61|
+|Harmans, MD                           |            2|
+|Harwood, MD                           |           14|
+|Havre de Grace, MD                    |           93|
+|Highland, MD                          |           13|
+|Hydes, MD                             |            4|
+|Jarrettsville, MD                     |           44|
+|Jessup, MD                            |           34|
+|Joppa, MD                             |           78|
+|Keymar, MD                            |            5|
+|Kingsville, MD                        |           24|
+|Laurel, MD                            |          158|
+|Linthicum Heights, MD                 |           40|
+|Lochearn, MD                          |           68|
+|Lothian, MD                           |           22|
+|Lutherville Timonium, MD              |          162|
+|Manchester, MD                        |           45|
+|Marriottsville, MD                    |           29|
+|Middle River, MD                      |          151|
+|Millington, MD                        |            9|
+|Monkton, MD                           |           16|
+|Mount Airy, MD                        |           62|
+|New Windsor, MD                       |           22|
+|North Beach, MD                       |            5|
+|Nottingham, MD                        |          155|
+|Odenton, MD                           |          121|
+|Owings Mills, MD                      |          170|
+|Parkton, MD                           |           32|
+|Parkville, MD                         |          103|
+|Pasadena, MD                          |          271|
+|Perry Hall, MD                        |           51|
+|Perryman, MD                          |            1|
+|Phoenix, MD                           |           36|
+|Pikesville, MD                        |          124|
+|Pylesville, MD                        |           11|
+|Queen Anne, MD                        |            3|
+|Queenstown, MD                        |           20|
+|Randallstown, MD                      |          101|
+|Reisterstown, MD                      |          122|
+|Riva, MD                              |           16|
+|Rockville, MD                         |            1|
+|Rosedale, MD                          |           73|
+|Rossville, MD                         |           36|
+|Savage, MD                            |            6|
+|Severn, MD                            |          122|
+|Severna Park, MD                      |          108|
+|Shady Side, MD                        |           23|
+|Silver Spring, MD                     |            1|
+|Sparks Glencoe, MD                    |           22|
+|Stevensville, MD                      |           70|
+|Street, MD                            |           26|
+|Sudlersville, MD                      |           12|
+|Sykesville, MD                        |          135|
+|Taneytown, MD                         |           39|
+|Towson, MD                            |          135|
+|Tracys Landing, MD                    |           10|
+|Union Bridge, MD                      |           17|
+|Upper Falls, MD                       |            1|
+|Upperco, MD                           |           11|
+|West Friendship, MD                   |            8|
+|West River, MD                        |           10|
+|Westminster, MD                       |          196|
+|White Marsh, MD                       |           14|
+|Whiteford, MD                         |            9|
+|Whitehall, MD                         |           18|
+|Windsor Mill, MD                      |          100|
+|Woodbine, MD                          |           40|
+|Woodstock, MD                         |           24|

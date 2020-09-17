@@ -1,0 +1,120 @@
+######################################################################
+######################################################################
+ ______     __     __         __         ______     __     __    
+/\___  \   /\ \   /\ \       /\ \       /\  __ \   /\ \  _ \ \   
+\/_/  /__  \ \ \  \ \ \____  \ \ \____  \ \ \/\ \  \ \ \/ ".\ \  
+  /\_____\  \ \_\  \ \_____\  \ \_____\  \ \_____\  \ \__/".~\_\ 
+  \/_____/   \/_/   \/_____/   \/_____/   \/_____/   \/_/   \/_/ 
+
+######################################################################
+######################################################################
+
+This document was prepared by the Data Science Team at Zillow in 
+Seattle, WA, USA. For internal use only.
+######################################################################
+
+Report on status of datasets for properties in Baltimore, MD, USA:
+
+### First dataset: Sales
+
+Summary:
+
+   PropertyID     TransYear      TransMonth       SaleAmount     
+ Min.   :   3   Min.   :2008   Min.   : 1.000   Min.   :      0  
+ 1st Qu.:2982   1st Qu.:2009   1st Qu.: 4.000   1st Qu.: 133646  
+ Median :5351   Median :2012   Median : 6.000   Median : 228723  
+ Mean   :5432   Mean   :2011   Mean   : 6.455   Mean   : 291203  
+ 3rd Qu.:8129   3rd Qu.:2013   3rd Qu.: 9.000   3rd Qu.: 346921  
+ Max.   :9998   Max.   :2015   Max.   :12.000   Max.   :6969037  
+                                                NA's   :67
+    - Rows: 2860
+    - Columns: 4
+
+Figures:
+
+- sales_per_year.png: 	Sum of home sales per year from 2008 to 2015.
+- sales_per_month.png: 	Sum of home sales by month 2008 to 2015.
+- sales_over_time.png: 	Home sales per month from 2008 to 2015.
+- SaleAmount_dist.png: 	Histogram of home sale prices for homes sold from 2008 
+	to 2015.
+- percentile_sales.png: Median, 25th percentile, and 75th percentile 
+	home sale prices for homes sold from 2008 to 2015.
+
+Notes:
+
+- PropertyID: Unique identifier for a property
+- TransYear: Year of sale
+- TransMonth: Month of sale where 1 = Jan, 2 = Feb, etc
+- SaleAmount: Sale price in USD
+
+### Second dataset: Properties
+
+Summary:
+
+PropertyID    DataTypeDescription     City                Zip       
+ Min.   :    1   Length:10000        Length:10000       Min.   :20711
+ 1st Qu.: 2501   Class :character    Class :character   1st Qu.:21061
+ Median : 5000   Mode  :character    Mode  :character   Median :21202
+ Mean   : 5000                                          Mean   :21178
+ 3rd Qu.: 7500                                          3rd Qu.:21224
+ Max.   :10000                                          Max.   :21797
+                                                                     
+BedroomCnt   	FinishedSquareFeet   YearBuilt     BathroomCnt
+Min.   :0.000   Min.   :   208     Min.   :1730   Min.   : 1.000
+1st Qu.:3.000   1st Qu.:  1152     1st Qu.:1947   1st Qu.: 1.000
+Median :3.000   Median :  1436     Median :1970   Median : 2.000
+Mean   :3.258   Mean   :  1738     Mean   :1964   Mean   : 2.025
+3rd Qu.:4.000   3rd Qu.:  2032     3rd Qu.:1990   3rd Qu.: 2.500
+Max.   :8.000   Max.   :119880     Max.   :2013   Max.   :31.000
+NA's   :8579    NA's   :1181       NA's   :969    NA's   :1456
+
+LotSizeSquareFeet  MajorRemodelYear 
+Min.   :       1   Min.   :1900   
+1st Qu.:    2000   1st Qu.:2001  
+Median :    7521   Median :2005  
+Mean   :   58833   Mean   :2001 
+3rd Qu.:   19903   3rd Qu.:2007    
+Max.   :68476320   Max.   :2011    
+NA's   :229        NA's   :9811  
+
+UnitTotalCnt       StoryCnt      RoomTotalCnt   
+Min.   : 1.000   Min.   :1.000   Min.   : 3.000  
+1st Qu.: 1.000   1st Qu.:2.000   1st Qu.: 8.000  
+Median : 1.000   Median :2.000   Median : 9.000  
+Mean   : 1.002   Mean   :1.854   Mean   : 9.864  
+3rd Qu.: 1.000   3rd Qu.:2.000   3rd Qu.:12.000  
+Max.   :16.000   Max.   :9.000   Max.   :23.000  
+NA's   :636      NA's   :1968    NA's   :9816    
+  
+	- Rows: 10000
+	- Columns: 13
+	- Unique values (DataTypeDescription):
+		1. Single Family Residence
+		2. Condominum
+		3. Undefined Property Type
+		4. Duplex/TriPlex
+	- Unique values (City):
+		See city_table.txt
+		- City: City where property is located.
+		- n_Properties: Number of properties in city.
+
+Figures:
+
+- year_built_hist.png: Histogram of the years in which homes were built.
+- property_map.png: Map of number of properties by zip code.
+
+Notes:
+
+- PropertyID: Unique identifier for a property
+- DataTypeDescription: Type of home
+- City: Location of home
+- Zip: Postal code for home
+- BedroomCnt: Number of bedrooms
+- FinishedSquareFeet: Finished square feet in a home
+- YearBuilt: Year home was built
+- BathroomCnt: Number of bathrooms in a home
+- LotSizeSquareFeet: Size of lot in square feet
+- MajorRemodelYear: Year of most recent remodel
+- UnitTotalCnt: Number of units in property
+- StoryCnt: Number of stories high of a home
+- RoomTotalCnt: Number of total rooms in a home
